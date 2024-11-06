@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="grid">
+    <main>
+        <div class="grid">
+            <h1>CONVERTER</h1>
+            <div>
+                <input type="text" class="padded" id="input1">
+                <select name="" id="select1" class="padded">
+                    <option value="decimal">decimal</option>
+                    <option value="binary">binary</option>
+                    <option value="octa">octa</option>
+                    <option value="hexa">hexa</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" class="padded" id="input2">
+                <select name="" id="select2" class="padded">
+                    <option value="binary">binary</option>
+                    <option value="decimal">decimal</option>
+                    <option value="octa">octa</option>
+                    <option value="hexa">hexa</option>
+                </select>
+            </div>
+            <input type="button" value="convert" id="btn" class="btn padded" >
+            <div>
+                <label for="">show solution</label>
+                <input type="checkbox" name="" id="showSolution">
+            </div>
+            <textarea  name="" id="solution" class="hide "></textarea>
+            
+        </div>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
